@@ -16,7 +16,9 @@ import (
 )
 
 var svc = schemas.New(
-	session.Must(session.NewSessionWithOptions(session.Options{})),
+	session.Must(session.NewSessionWithOptions(session.Options{
+		SharedConfigState: session.SharedConfigEnable,
+	})),
 )
 
 func main() {
