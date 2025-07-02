@@ -2,13 +2,11 @@ module github.com/blwsh/ebgen
 
 go 1.24
 
-require (
-	github.com/atombender/go-jsonschema v0.20.0
-	github.com/aws/aws-sdk-go v1.55.7
-)
+require github.com/aws/aws-sdk-go v1.55.7
 
 require (
 	dario.cat/mergo v1.0.2 // indirect
+	github.com/atombender/go-jsonschema v0.20.0 // indirect
 	github.com/goccy/go-yaml v1.18.0 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
